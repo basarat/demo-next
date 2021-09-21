@@ -7,7 +7,7 @@ export default function Social() {
   }, []);
 
   return (<>
-    <h1>Subscribers: {subscribers}</h1>
+    <h1>Current Subscribers: {subscribers}</h1>
     <button onClick={handleSubscribe}>
       Subscribe
     </button>
